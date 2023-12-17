@@ -28,7 +28,7 @@ CLUENER2020共有10个不同的类别，包括：组织(organization)、人名(n
 
 &bull; Betr-base-chinese+softmax
 ## 训练
-!["每个epoch平均损失"]
+!["每个epoch平均损失"](./tensorboard/bert_softmax.png)
 
 ## 项目结构
 
