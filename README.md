@@ -1,4 +1,5 @@
 # 基于Bert的中文命名实体识别
+
 ## 数据集
 实验数据来自[CLUENER2020](https://github.com/CLUEbenchmark/CLUENER2020)。这是一个中文细粒度命名实体识别数据集，是基于清华大学开源的文本分类数据集THUCNEWS，选出部分数据进行细粒度标注得到的。该数据集的训练集、验证集和测试集的大小分别为10748，1343，1345，平均句子长度37.4字，最长50字。由于测试集不直接提供，考虑到leaderboard上提交次数有限，本项目使用CLUENER2020的验证集作为模型表现评判的测试集。
 
@@ -24,16 +25,25 @@ CLUENER2020共有10个不同的类别，包括：组织(organization)、人名(n
 }
 ```
 ## 模型
+
 &bull; Betr-base-chinese+softmax
+
 ## 项目结构
+
 * ner
-  * bert-base-chinese
-  * dataset
-    * 孙项目1
-    * 孙项目2
-* 另一个主要项目
-  * 子项目3
-  * 子项目4
+  * bert-base-chinese(预训练bert模型)
+  * dataset(中文实体数据集)
+  * model(模型)
+  * weights(模型训练权重文件)
+  * .gitattributes(lfs 大文件追踪目录)
+  * test.py(测试代码)
+  * train.py(训练代码)
+## 第三方库
+* pytorch
+* transformers
+* numpy
+* tensorboard
+* tqdm
 
 
 
