@@ -5,7 +5,7 @@ license: Apache License 2.0
 tasks:
 - fill-mask
 ---
-## 克隆该模型
+## 克隆
 
 ```bash
  git clone https://www.modelscope.cn/tiansz/bert-base-chinese.git
