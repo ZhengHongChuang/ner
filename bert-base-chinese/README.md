@@ -13,7 +13,7 @@ tasks:
 
 
 
-## 来源
+## 模型来源
 
 该模型是 huggingface 的 bert-base-chinese 的模型备份，该模型可以用于实现文本分类、实体识别等任务。
 
