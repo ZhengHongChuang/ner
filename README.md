@@ -33,7 +33,7 @@
 
 &bull; Bert+softmax
 
-## 训练
+## 损失
 !["每个epoch平均损失"](./tensorboard/bert_softmax.png)
 
 ## 项目结构
